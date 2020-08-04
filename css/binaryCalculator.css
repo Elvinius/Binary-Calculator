@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: 20% auto;
+}
+
+#res {
+    background-color: lightgray;
+    border: solid;
+    height: 88px;
+    font-size: 36px;
+    padding: 5px;
+    text-align: right;
+}
+
+#btn0, #btn1 {
+    background-color: lightgreen;
+    color: brown;
+}
+
+#btnClr, #btnEql {
+    background-color: darkgreen;
+    color: white;
+}
+
+#btnSum, #btnSub, #btnMul, #btnDiv {
+    background-color: black;
+    color:red;
+}
+
+.buttonContainer > .buttonClass {
+    width: 25%;
+    height: 76px;
+    font-size: 36px;
+    margin: 0px;
+    float: left;
+    
+}
